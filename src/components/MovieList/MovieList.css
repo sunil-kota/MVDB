@@ -1,0 +1,57 @@
+.movieItems {
+    display: flex;
+    flex-wrap: nowrap; 
+    padding: 20px; 
+    overflow-x: auto; 
+  }
+  
+  .movieItems div {
+    margin-right: 20px; 
+  }
+  
+  .movieItems img {
+    width: 200px; 
+    height: 300px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white; 
+  }
+  
+  .movieItems img:hover {
+    transform: scale(1.15);
+    transition: transform 0.3s ease;
+  }
+  
+  .movieItems::-webkit-scrollbar {
+    display: none;
+  }
+
+ 
+  
+  .image-container {
+    position: relative; 
+  }
+  
+  .image-container:hover .addfavourite {
+    opacity: 1; 
+  }
+  
+  .addfavourite {
+    position: absolute; 
+    bottom: 0; 
+    left: 0; 
+    width: 100%; 
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    box-sizing: border-box;
+    color: white;
+    font-size: 14px;
+    opacity: 0; 
+    transition: opacity 0.3s ease; 
+  }
+  
+  .addfavourite p {
+    margin-left: 5px; 
+    color: red; 
+  }
+  

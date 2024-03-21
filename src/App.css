@@ -1,0 +1,15 @@
+.App {
+  background-color: black;
+  color: white; /* Set text color to contrast with the background */
+  height: 100vh; /* Set the height to fill the viewport */
+  padding: 20px; /* Add some padding for content */
+}
+
+body {
+  background-color: #000; /* Set background color to black */
+  margin: 0; /* Remove default body margin */
+  padding: 0; /* Remove default body padding */
+}
+
+
+
