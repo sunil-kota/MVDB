@@ -8,8 +8,6 @@ import RemoveFromFavourites from './components/favourites/RemoveFromFavourites';
 
 
 
-
-
 function App() {
   const [movies, setMovies] = useState([]);
   const [searchValue, setSearchValue] = useState('avengers');
@@ -35,7 +33,7 @@ function App() {
   };
 
   const fetchMovies = async (searchValue) => {
-    const url = `http://www.omdbapi.com/?s=${searchValue}&apikey=990c3e8f`;
+    const url = `https://www.omdbapi.com/?s=${searchValue}&apikey=990c3e8f`;
     const response = await fetch(url);
     const data = await response.json();
     console.log(data);
